@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactDashBoard/static/css/main.d976af95.chunk.css",
-    "main.js": "/ReactDashBoard/static/js/main.fe88dbe0.chunk.js",
-    "main.js.map": "/ReactDashBoard/static/js/main.fe88dbe0.chunk.js.map",
+    "main.css": "/ReactDashBoard/static/css/main.6fae674b.chunk.css",
+    "main.js": "/ReactDashBoard/static/js/main.152823de.chunk.js",
+    "main.js.map": "/ReactDashBoard/static/js/main.152823de.chunk.js.map",
     "runtime~main.js": "/ReactDashBoard/static/js/runtime~main.09a3fc01.js",
     "runtime~main.js.map": "/ReactDashBoard/static/js/runtime~main.09a3fc01.js.map",
     "static/js/2.6de7e433.chunk.js": "/ReactDashBoard/static/js/2.6de7e433.chunk.js",
     "static/js/2.6de7e433.chunk.js.map": "/ReactDashBoard/static/js/2.6de7e433.chunk.js.map",
     "index.html": "/ReactDashBoard/index.html",
-    "precache-manifest.07c4f8ca0817a2452d8b942b78e153f2.js": "/ReactDashBoard/precache-manifest.07c4f8ca0817a2452d8b942b78e153f2.js",
+    "precache-manifest.4629bb94982ac009b9574a1855c34ccf.js": "/ReactDashBoard/precache-manifest.4629bb94982ac009b9574a1855c34ccf.js",
     "service-worker.js": "/ReactDashBoard/service-worker.js",
-    "static/css/main.d976af95.chunk.css.map": "/ReactDashBoard/static/css/main.d976af95.chunk.css.map",
+    "static/css/main.6fae674b.chunk.css.map": "/ReactDashBoard/static/css/main.6fae674b.chunk.css.map",
     "static/media/highcharts-compare-data-using-column-chart.png": "/ReactDashBoard/static/media/highcharts-compare-data-using-column-chart.60922511.png"
   }
 }
