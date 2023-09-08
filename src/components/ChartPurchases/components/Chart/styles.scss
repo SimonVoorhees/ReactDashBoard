@@ -7,17 +7,18 @@
     background-color: white;
     margin: 1% 0% 1% 3%;
     width: 98%;
+    border-radius: 10px;
   }
   .chartTitle{
     justify-content: flex-start;
-    padding-left: 1%;
+    padding: 10px 0 0 20px;
     font-size: 14px;
     margin: 10px 0px 25px 0px;
     color: gray;
   }
   .chartText{
     justify-content: flex-start;
-    padding-left: 1%;
+    padding-left: 20px;
   }
   .chartImg{
     justify-content: flex-end;
@@ -26,13 +27,12 @@
 
   @media only screen and (min-width: 500px){
     .chart {
-      width: 46%;
+      width: 49%;
       margin: 2% 2% 2% 0%;
     }
   }
   @media only screen and (min-width: 800px){
     .chart{
-      width: 46.5%;
       margin: 2% 0% 2% 0%;
     }
   }

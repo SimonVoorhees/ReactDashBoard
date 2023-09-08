@@ -1,47 +1,53 @@
-.toDo{
-    box-shadow: 5px 5px 10px -5px darkgray;
+.toDo {
+  box-shadow: 5px 5px 10px -5px darkgray;
   display: flex;
   flex-direction: column;
   background-color: white;
   flex: 1;
   margin: 2% 0%;
-  padding: 10px;
-  
+  padding: 10px 20px 0 20px;
+  border-radius: 10px;
 }
-.toDoTitle{
-    font-size: 14px;
-    margin: 10px 0px 25px 0px;
-    color: gray;
+.toDoTitle {
+  font-size: 14px;
+  margin: 10px 0px 25px 0px;
+  color: gray;
 }
-.item{
-    margin: 10px;
-    border-bottom: 2px solid lightgray;
-    padding-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
+.item {
+  margin: 10px;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
 }
-.newTask{
-    margin: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.newTask {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.newTaskBox{
-    width: 100%;
-    height: 20px;
-    color: lightgray;
-    padding-left: 10px;
-    border: 1px solid lightgray;
+.newTaskBox {
+  width: 100%;
+  height: 20px;
+  color: lightgray;
+  padding-left: 10px;
+  border: 1px solid lightgray;
 }
-.newTaskBox:focus{
-    color: black;
+.newTaskBox:focus {
+  color: black;
 }
-.newTaskButton{
-    margin-right: 20px;
+.newTaskButton {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
 }
-@media only screen and (min-width: 500px){
-    .toDo{
-        flex: 2;
-        margin: 0% 0% 0% 0%;
-    }
+.removeButton{
+    background-color: transparent;
+    border: none;
+}
+@media only screen and (min-width: 500px) {
+  .toDo {
+    flex: 2;
+    margin: 0% 0% 0% 0%;
+  }
 }

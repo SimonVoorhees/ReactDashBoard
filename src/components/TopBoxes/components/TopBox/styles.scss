@@ -1,64 +1,62 @@
+.topBox {
+  padding-left: 1%;
+  flex-direction: column;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 5px 5px 10px -5px darkgray;
+  background-color: white;
+  margin: 1% 1% 1% 3%;
+  width: 93%;
+  border-radius: 10px;
+}
+.topBoxImg {
+  padding-right: 15px;
+  align-self: flex-end;
+  justify-self: center;
+  padding-bottom: 10px;
+}
+.topBoxTitle {
+  font-size: 14px;
+  margin: 10px 0px 25px 0px;
+  color: gray;
+}
+.topBoxNums {
+  margin: -25px 0px -5px 0px;
+}
+.topBoxSmall {
+  font-size: 10px;
+}
 
-.topBox{
-    padding-left: 1%;
-    flex-direction: column;
-    height: 12%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    box-shadow: 5px 5px 10px -5px darkgray;
-    background-color: white;
-    margin: 1% 1% 1% 3%;
-    width: 93%;
+@media only screen and (min-width: 500px) {
+  .topBox {
+    align-items: center;
+    width: 18%;
+    height: 20%;
+    text-align: center;
+    padding: 20px 20px;
   }
-  .topBoxImg{
-    padding-right: 15px;
-    align-self: flex-end;
-    justify-self: center;
-    padding-bottom: 10px;
+  .topBoxImg {
+    margin: 10px 0px;
+    padding-right: 0px;
+    align-self: center;
   }
-  .topBoxTitle{
+
+  .topBoxTitle {
     font-size: 14px;
-    margin: 10px 0px 25px 0px;
+    margin: 0px 0px 10px 0px;
+    padding-top: -20px;
     color: gray;
   }
-  .topBoxNums{
-    margin: -25px 0px -5px 0px;
+  .topBoxNums {
+    margin: 10px 0px;
+    font-size: 25px;
   }
-  .topBoxSmall{
-    
-    font-size: 10px;
-  }
-  
-  @media only screen and (min-width: 500px){
-    .topBox{
-      align-items: center;
-      width: 18%;
-      height: 20%;
-      text-align: center;
-      padding: 10px 10px;
-    }
-    .topBoxImg{
-      margin: 10px 0px;
-      padding-right: 0px;
-      align-self: center;
-    }
-  
-    .topBoxTitle{
-      font-size: 14px;
-      margin: 0px 0px 10px 0px;
-      padding-top: -20px;
-      color: gray;
-    }
-    .topBoxNums{
-      margin: 10px 0px;
-      font-size: 25px;
-    }
-  }
-  @media only screen and (min-width: 800px){
-    .topBox{
-      width: 20%;
-      padding-left: 1%;
+}
+@media only screen and (min-width: 800px) {
+  .topBox {
+    width: 20%;
     flex-direction: column;
     height: 12%;
     display: flex;
@@ -67,17 +65,17 @@
     box-shadow: 5px 5px 10px -5px darkgray;
     background-color: white;
     margin: 0% 0% 0% 0%;
-    }
-    .topBoxImg{
-      padding-right: 15px;
-      align-self: flex-end;
-    }
-    .topBoxTitle{
-      font-size: 14px;
-      margin: 10px 0px 25px 0px;
-      color: gray;
-    }
-    .topBoxNums{
-      margin: -25px 0px -5px 0px;
-    }
   }
+  .topBoxImg {
+    padding-right: 15px;
+    align-self: flex-end;
+  }
+  .topBoxTitle {
+    font-size: 14px;
+    margin: 10px 0px 25px 0px;
+    color: gray;
+  }
+  .topBoxNums {
+    margin: -25px 0px -5px 0px;
+  }
+}

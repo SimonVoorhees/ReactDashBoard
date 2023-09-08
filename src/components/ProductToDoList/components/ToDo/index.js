@@ -47,7 +47,7 @@ class ToDo extends React.Component {
     render = () => {
         const itemsMap = this.state.items.map((item, index) => (
             <div className="item" key={item + index}><ToDoItem name={item} />
-                <button onClick={this.handleRemove} value={index}>
+                <button onClick={this.handleRemove} value={index} className="removeButton">
                     <FontAwesomeIcon icon={faTrashAlt} />
                     </button></div>
         ));

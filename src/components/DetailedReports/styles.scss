@@ -3,7 +3,7 @@
     box-shadow: 5px 5px 10px -5px darkgray;
     flex-direction: column;
     background-color: white;
-    margin: 0% 3%;
+    border-radius: 10px;
 }
 .report23{
     display: flex;
@@ -20,7 +20,7 @@
 
 @media only screen and (min-width: 500px){
     .reports{
-        margin: 2% 3%;
+        margin: 2% 0;
     }
     .report23{
         flex-direction: row;

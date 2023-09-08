@@ -13,15 +13,8 @@ main {
   width: 100%;
   
 }
-.topBoxes, .chartPurchases{
-  flex-direction: column;
-}
 
 @media only screen and (min-width: 500px){
-  .topBoxes, .chartPurchases{
-    flex-direction: row;
-    justify-content: space-around;
-  }
 }
 @media only screen and (min-width: 800px){
   

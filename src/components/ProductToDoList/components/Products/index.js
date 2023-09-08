@@ -20,7 +20,7 @@ const Products = () => (
                     product="Photoshop"
                     sale="28.76% ↓"
                     saleColor="red"
-                    status="Pending"
+                    status="Blocked"
                     statusColor="statusRed"
                 />
                 <TableRow

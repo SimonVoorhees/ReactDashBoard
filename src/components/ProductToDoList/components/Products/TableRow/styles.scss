@@ -13,33 +13,34 @@ td{
     width: 10px;
 }
 
-// $colors: Red, Orange, Green, Blue;
-// @each $color in $colors{
-//     .status#{$color}{
-        
-//     }
-// }
 .statusRed{ 
-    padding-left: 5px;
+    padding: 5px 5px;
+    text-align: center;
     color: white;
     background-color: red;
     width: 65px;
 }
 .statusOrange{ 
-    padding-left: 5px;
+    padding: 5px 5px;
+    text-align: center;
     background-color: Orange;
     width: 85px;
+    border-radius: 10px;
 }
 .statusGreen{ 
-    padding-left: 5px;
+    padding: 5px 5px;
+    text-align: center;
     color: white;
     background-color: lightGreen;
     width: 70px;
+    border-radius: 10px;
 }
 .statusBlue{ 
-    padding-left: 5px;
+    padding: 5px 5px;
+    text-align: center;
     background-color: lightBlue;
     width: 42px;
+    border-radius: 10px;
 }
 .line{
     border-top: 2px solid lightgray;
